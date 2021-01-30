@@ -132,7 +132,6 @@
           function handleEconomyTicketChange(isIncrease){
             const economyInput=document.getElementById("economy-count");
             const economyCount=parseInt(economyInput.value);
-            // const firstNewCount= firstCount - 1;
             let economyNewCount= economyCount;
             if(isIncrease==true){
                 economyNewCount= economyCount+1;
@@ -149,7 +148,6 @@
         function handleTicketChange(isIncrease){
             const firstInput=document.getElementById("first-count");
             const firstCount=parseInt(firstInput.value);
-            // const firstNewCount= firstCount - 1;
             let firstNewCount= firstCount;
             if(isIncrease==true){
                 firstNewCount= firstCount+1;
@@ -180,24 +178,6 @@
          document.getElementById("grand-amount").innerText = grandTotal;
 
         }
-        
-        // document.getElementById("first-increase").addEventListener("click", function(){
-        // const firstInput=document.getElementById("first-count");
-        // const firstCount=parseInt(firstInput.value);
-        // const firstNewCount= firstCount + 1;
-        // firstInput.value= firstNewCount;
-        // const firstTotal=firstNewCount*150;
-        // document.getElementById("first-total").innerText="$" + firstTotal;
-        // })
-        
-        // document.getElementById("first-decrease").addEventListener("click", function(){
-        // const firstInput=document.getElementById("first-count");
-        // const firstCount=parseInt(firstInput.value);
-        // const firstNewCount= firstCount - 1;
-        // firstInput.value= firstNewCount;
-        // const firstTotal=firstNewCount*150;
-        // document.getElementById("first-total").innerText="$" + firstTotal;
-        // })
     </script>
 
     <!--Thank You-->
